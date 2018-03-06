@@ -1,0 +1,61 @@
+body{
+  background-image: url("../img/fot02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }/*
+/
+/
+/
+clases
+*/
+.parallax-container {
+     height: 400px;
+   }
+/*
+/
+/
+/
+ids
+*/
+#galeria img{
+  width: 100%;
+}
+#logotipo{
+}
+#logotipo img{
+  width: 150px;
+}
+#redesSociales li{
+  list-style-type: none;
+  text-align: center;
+}
+#slogan{
+  padding-top: 2em;
+  font-size: 30px;
+  text-align: center;
+}
+/*
+/
+/
+/
+queries
+*/
+@media screen and (max-width: 767px){
+  #logotipo img{
+    width:100px;
+  }
+}
+/*
+/
+/
+*/
+@media screen and (max-width: 580px){
+  #logotipo img{
+    width:100px;
+  }
+  #slogan{
+    font-size: 20px;
+    text-align: center;
+  }
+}
