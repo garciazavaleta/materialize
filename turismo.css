@@ -19,10 +19,12 @@ clases
   margin-right: 5px;
   margin-bottom: 15px;
 }
-.informacion{
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em;
+.ficha{
+  width:90%;
+  padding: 10px;
+  float: right;
+  background-color: rgba(187, 222, 251, 0.4);
+  font-size: 12px;
 }
 .nota{
   font-size: 12px;
@@ -41,6 +43,11 @@ ids
 */
 #galeria img{
   width: 100%;
+}
+#fotoArticulo{
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 #logotipo{
 }
@@ -72,6 +79,14 @@ queries
   #logotipo img{
     width:100px;
   }
+  #fotoArticulo{
+    width: 100%;
+  }
+  .ficha{
+    width:100%;
+    float: none;
+    margin-top: 15px;
+  }
 }
 /*
 /
@@ -85,4 +100,8 @@ queries
     font-size: 20px;
     text-align: center;
   }
+  #fotoArticulo{
+    width: 100%;
+  }
+
 }
