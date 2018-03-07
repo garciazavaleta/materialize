@@ -103,5 +103,7 @@ queries
   #fotoArticulo{
     width: 100%;
   }
-
+  #puebla{
+    display: none;
+  }
 }
