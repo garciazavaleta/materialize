@@ -4,12 +4,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale1.0" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" rel="stylesheet" media="screen, projection">
     <link href="css/turismo.css" rel="stylesheet" media="screen, projection">
     <title>Turismo</title>
   </head>
   <body class="col blue lighten-4">
+    <div class=" blue lighten-4" id="pleca">
+    </div>
+    <div class="container">
     <!--
     encabezado
     card-panel teal lighten-2
@@ -19,20 +22,20 @@
       encabezado
       -->
       <div class="row">
-        <div class="col s3 m3 l2" id="logotipo">
+        <div class="col s3 m3 l3" id="logotipo">
           <img src="img/logo.png">
         </div>
         <!--
         navegación
         -->
-        <div class="col s9 m9 l10">
+        <div class="col s9 m9 l9">
           <nav>
             <div class="nav-wrapper">
               <ul class="right">
-                <li><a href="sass.html">Playa</a></li>
-                <li><a href="sass.html">Colonial</a></li>
-                <li><a href="badges.html">Ciudad</a></li>
-                <li><a href="collapsible.html">Rural</a></li>
+                <li><a href="#">Playa</a></li>
+                <li><a href="#">Colonial</a></li>
+                <li><a href="#">Ciudad</a></li>
+                <li><a href="#">Rural</a></li>
               </ul>
             </div>
           </nav>
@@ -56,6 +59,7 @@
       <!--
       redes sociales
       -->
+      <article>
       <div class="row">
         <div class="s1 m1 l1 col push-s11" id="redesSociales">
           <!--
@@ -63,28 +67,28 @@
           -->
           <ul>
             <li>
-              <a class="collection-item avatar">
+              <a href="#" class="collection-item avatar">
                 <img src="img/rs-facebook.png" alt="" class="circle">
               </a>
             </li>
             <li>
-              <a class="collection-item avatar">
+              <a href="#" class="collection-item avatar">
                 <img src="img/rs-twitter.png" alt="" class="circle">
               </a>
             </li>
             <li>
-              <a class="collection-item avatar">
+              <a href="#" class="collection-item avatar">
                 <img src="img/rs-linkedin.jpg" alt="" class="circle">
               </a>
             </li>
             <li>
-              <a class="collection-item avatar">
-                <img src="img/rs-facebook.png" alt="" class="circle">
+              <a href="#" class="collection-item avatar">
+                <img src="img/rs-snap.png" alt="" class="circle">
               </a>
             </li>
             <li>
-              <a class="collection-item avatar">
-                <img src="img/rs-facebook.png" alt="" class="circle">
+              <a href="#" class="collection-item avatar">
+                <img src="img/rs-pinterest.png" alt="" class="circle">
               </a>
             </li>
           </ul>
@@ -100,81 +104,104 @@
           primera columna galería
           -->
           <div class="row">
-            <div class="col s12 m3 l3">
-              <div class="row">
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje00.jpg">
+            <div class="col s12 m4 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/paisaje01.jpg" class="z-depth-3">
+                  <span class="card-title">Pátzcuaro</span>
                 </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje01.jpg">
+                <div class="card-content">
+                  <p>Pueblo mágico, sus tradiciones conviven cotidianamente con sus paisajes y sus sabores.</p>
                 </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje02.jpg">
-                </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje03.jpg">
+                <div class="card-action">
+                  <a href="#">Más información</a>
                 </div>
               </div>
+              <img src="img/paisaje03.jpg" class="z-depth-4">
             </div>
             <!--
             segunda columna galería
             -->
-            <div class="col s6 m5 l5">
-              <div class="row">
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje04.jpg">
+            <div class="col s6 m4 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/paisaje04.jpg" class="z-depth-3">
+                  <span class="card-title">Cozumel</span>
                 </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje05.jpg">
+                <div class="card-content">
+                  <p>En el centro del caribe mexicano, se fusionan el cielo y el mar.</p>
                 </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje06.jpg">
+                <div class="card-action">
+                  <a href="#">Más información</a>
                 </div>
               </div>
+              <img src="img/paisaje05.jpg"  class="z-depth-4">
+              <img src="img/paisaje06.jpg"  class="z-depth-5">
             </div>
             <!--
             tercera columna galería
             -->
             <div class="col s6 m4 l4">
-              <div class="row">
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje07.jpg">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/paisaje08.jpg" class="z-depth-3">
+                  <span class="card-title">Puebla</span>
                 </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje08.jpg">
+                <div class="card-content">
+                  <p>Al pie de los volcanes, la asombrosa arquitectura colonial.</p>
                 </div>
-                <div class="col s12 m12 l12">
-                  <img src="img/paisaje09.jpg">
+                <div class="card-action">
+                  <a href="#">Más información</a>
                 </div>
               </div>
+              <img src="img/paisaje07.jpg"  class="z-depth-2">
+              <img src="img/paisaje09.jpg"  class="z-depth-4">
+              <img src="img/paisaje00.jpg"  class="z-depth-5">
             </div>
           </div>
         </div>
         <!--
         termina galería
         -->
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src="img/fot02.jpg">
+      </article>
+    </section>
+    <!--
+    textos
+    -->
+    <article>
+      <div class="row">
+        <div class="col s12 m6 l7 textos">
+          <h5>Artículo sobre Morelia</h5>
+          <div class="datos grey lignten-2">
+            12/03/69 <i class="tiny material-icons dp48">date_range</i>
+          </div>
+          <div class="datos grey lignten-2">
+            Ciudad de México <i class="tiny material-icons dp48">location_on</i>
+          </div>
+          <div class="col s12 m12 l12 nota">
+            <img src="img/paisaje07.jpg" class="informacion">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla ex quis felis ultrices aliquet. Suspendisse convallis ultrices sem ac ornare. Donec vitae convallis magna. Morbi scelerisque, est a ullamcorper aliquam, diam arcu pharetra enim, id consectetur neque eros id mauris. Suspendisse ullamcorper at dolor in semper. Integer ultricies ullamcorper nulla. Aliquam non risus felis. Donec vel ex tellus.
+            </br>
+            </br>
+            Donec auctor nisi vel interdum eleifend. Vivamus condimentum tempor dolor, at volutpat sapien fermentum nec. Quisque semper varius elit in euismod. Donec tincidunt lacus sit amet odio hendrerit bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent ac ex augue. Duis congue neque sed gravida tempus. Duis vel rhoncus leo, non ultrices ipsum. Morbi velit ligula, efficitur a mollis nec, pulvinar non ex. Aliquam vulputate diam id tristique rhoncus. Praesent pretium volutpat metus, id fringilla diam varius sed. Suspendisse potenti. Nunc non massa vitae risus sagittis volutpat.
           </div>
         </div>
-      </div>
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header">Parallax</h2>
-          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <div class="col s12 m6 l5 textos">
+          columna derecha
         </div>
       </div>
-      <div class="parallax-container">
-        <div class="parallax"><img src="img/fot01.jpg"></div>
-      </div>
+    </article>
+    <section>
     </section>
+
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript">
+    <script type="text/javascript">
     $(document).ready(function(){
      $('.parallax').parallax();
-   });
+    });
    </script>
+
   </body>
 </html>

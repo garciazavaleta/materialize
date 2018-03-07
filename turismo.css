@@ -9,9 +9,30 @@ body{
 /
 clases
 */
+.datos{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  color: white;
+  vertical-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.informacion{
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.nota{
+  font-size: 12px;
+}
 .parallax-container {
      height: 400px;
    }
+.textos{
+  background-color: rgba(187, 222, 251, 0.6);
+}
 /*
 /
 /
@@ -25,6 +46,12 @@ ids
 }
 #logotipo img{
   width: 150px;
+}
+#pleca{
+  position: fixed !important;
+  height: 75px;
+  width: 100%;
+  z-index: -1;
 }
 #redesSociales li{
   list-style-type: none;
